@@ -2,8 +2,6 @@ import { HeaderButton } from "../components/HeaderButton"
 import { HeaderNavBar } from "../components/HeaderNavBar"
 import { HeaderNavBarMobile } from "../components/HeaderNavBarMobile"
 
-import utnLogo from "../assets/utn-logo.png"
-
 export function Header ({children}) {
 
     const navBarItems = [
@@ -298,7 +296,7 @@ export function Header ({children}) {
 
                         <div className="flex justify-center lg:justify-normal">
                             <a href="/" aria-label="Ir a la pagina principal de inicio">
-                                <img className="lg:h-20 md:h-16 h-12" src={utnLogo} alt=""></ img>
+                                <img className="lg:h-20 md:h-16 h-12" src="/assets/utn-logo.png" alt=""></ img>
                             </a>
                         </div>
 
