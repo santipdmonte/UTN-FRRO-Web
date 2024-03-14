@@ -296,7 +296,7 @@ export function Header ({children}) {
 
                         <div className="flex justify-center lg:justify-normal">
                             <a href="/" aria-label="Ir a la pagina principal de inicio">
-                                <img className="lg:h-20 md:h-16 h-12" src="/src/assets/utn-logo.png" alt=""></ img>
+                                <img className="lg:h-20 md:h-16 h-12" src="./src/assets/utn-logo.png" alt=""></ img>
                             </a>
                         </div>
 
