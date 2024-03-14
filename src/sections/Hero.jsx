@@ -4,7 +4,7 @@ export function Hero ({children}) {
     return (
         <>
             <div className="overflow-hidden rounded-[10px] relative flex items-center">
-                <img className="object-cover w-full h-full" src="/public/assets/hero.jpg" alt="" />
+                <img className="object-cover w-full h-full" src="/assets/hero.jpg" alt="" />
             
             
                 <div className="absolute left-2 md:bottom-12 font-sans">
