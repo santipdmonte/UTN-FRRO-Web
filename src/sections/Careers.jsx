@@ -88,10 +88,10 @@ export function Careers (){
                             value={selectedTab}
                             className=" text-sm rounded-lg block w-full appearance-none p-2.5 bg-accent border-accent-secondary 
                             text-white focus:ring-accent-tertiary focus:border-accent-tertiary"
-                            onChange={(e) => setSelectedTab(e.target.value)}>
+                            onChange={(e) => handleTabChange(parseInt(e.target.value))}>
 
                             {tabItems.map((item) => (
-                                <option key={item.id} idx={item.id}>
+                                <option key={item.id} idx={item.id} value={item.id}>
                                 {item.name}
                                 </option>
                             ))}
