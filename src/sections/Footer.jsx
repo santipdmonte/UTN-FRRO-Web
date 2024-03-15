@@ -70,7 +70,7 @@ export function Footer() {
             <div className="gap-6 justify-between md:flex">
                 <div className="flex-1">
                     <div className="max-w-xs flex flex-col">
-                        <img src="src\assets\utn-logo.png" className="w-32" />
+                        <img src="/assets/utn-logo.png" className="w-32" />
                         <p className="leading-relaxed mt-2 text-[15px] font-bold">
                             Facultad Regional Rosario
                         </p>
