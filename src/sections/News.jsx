@@ -90,15 +90,6 @@ export function News (){
                                 href={card.href}/>
                         ))}
                     </article>
-
-                    <article className=" hidden columns-1 sm:col-span-2 md:col-span-1 mx-auto">
-                        {postersCard.map((card, index) => (
-                            <PosterCard
-                                key={index} 
-                                img={card.img}
-                                href={card.href}/>
-                        ))}
-                    </article>
                     
                 </div>   
             </section>

@@ -1,6 +1,5 @@
 
 .posterContent{
-    min-width: 100vh;
     display: grid;
     place-items: center;
     overflow: hidden;
