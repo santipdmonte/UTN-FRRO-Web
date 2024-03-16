@@ -294,13 +294,13 @@ export function Header ({children}) {
                 className="pt-6 pb-14">
                     <div className="container mx-auto flex flex-row justify-between relative">
 
-                        <div className="flex justify-center lg:justify-normal">
-                            <a href="/" aria-label="Ir a la pagina principal de inicio">
+                        <div className="flex mx-auto md:ml-0 lg:justify-normal">
+                            <a 
+                                href="/"                               
+                                aria-label="Ir a la pagina principal de inicio">
                                 <img className="lg:h-20 md:h-16 h-12" src="/assets/utn-logo.png" alt=""></ img>
                             </a>
-                        </div>
-
-                        
+                        </div>                       
 
                         <div className="flex flex-row gap-x-4 items-center">
                             <HeaderButton href={"https://frro.cvg.utn.edu.ar/" }>
@@ -312,7 +312,6 @@ export function Header ({children}) {
                             </HeaderButton>
                         
                             <HeaderNavBarMobile navBarItems={navBarItems}/>
-
 
                         </div>
                                 
