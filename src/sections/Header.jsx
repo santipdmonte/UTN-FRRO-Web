@@ -298,7 +298,7 @@ export function Header ({children}) {
                             <a 
                                 href="/"                               
                                 aria-label="Ir a la pagina principal de inicio">
-                                <img className="lg:h-20 md:h-16 h-12" src="/assets/utn-logo.png" alt=""></ img>
+                                <img className="lg:h-20 h-16" src="/assets/utn-logo.png" alt=""></ img>
                             </a>
                         </div>                       
 

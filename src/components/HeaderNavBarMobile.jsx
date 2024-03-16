@@ -46,7 +46,7 @@ export function HeaderNavBarMobile ({ navBarItems }){
                     <a 
                         href="/"                               
                         aria-label="Ir a la pagina principal de inicio">
-                        <img className="lg:h-20 md:h-16 h-12 drop-shadow-xl" src="/assets/utn-logo.png" alt=""></ img>
+                        <img className="lg:h-20 h-16 drop-shadow-xl" src="/assets/utn-logo.png" alt=""></ img>
                     </a>
                 </div>
 
