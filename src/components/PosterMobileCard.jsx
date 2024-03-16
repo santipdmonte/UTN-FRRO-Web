@@ -5,7 +5,7 @@ export function PosterMobileCard ({img, href}){
         <a 
             href={href}
             className="flex lg:w-[200px] w-[150px] items-center m-[10px]
-            hover:scale-110 transition-transform duration-300 ease-in-out 
+            md:hover:scale-110 transition-transform duration-300 ease-in-out 
             rounded-[10px] relative overflow-hidden"
             >
             <div className="absolute inset-0 rounded-[10px] overflow-hidden backdrop-blur-2xl">

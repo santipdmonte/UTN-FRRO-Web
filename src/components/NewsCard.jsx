@@ -3,7 +3,7 @@ export function NewsCard ({title = '', description = '', img, href}){
         <a 
             href={href}>
             <div className="bg-gray-400 break-inside-avoid rounded-[10px] mb-5 drop-shadow-2xl 
-            hover:scale-105 transition-all duration-300 ease-in-out">
+            md:hover:scale-105 transition-all duration-300 ease-in-out">
                 <img 
                         src={img}
                         alt={title}
